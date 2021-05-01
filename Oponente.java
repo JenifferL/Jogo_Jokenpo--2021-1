@@ -10,7 +10,7 @@ public class Oponente {
 	public void escolhaOponente() {
 		Random cpu = new Random();
 
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 3; i++) {
 			this.setSistema(cpu.nextInt(3));
 		}
 
